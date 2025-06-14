@@ -1,0 +1,152 @@
+2025-06-15T06:43:43.758Z [INFO]: 🚀 STARTING SEQUENTIAL AUTOMATION WORKFLOW
+2025-06-15T06:43:43.759Z [INFO]: ================================================
+2025-06-15T06:43:43.759Z [INFO]: 📥 Step 1: Fetching registered addresses from contract...
+2025-06-15T06:43:44.727Z [INFO]: Found 3 registered addresses in contract
+2025-06-15T06:43:44.778Z [INFO]: Cleared existing registered addresses from database
+2025-06-15T06:43:44.828Z [INFO]: ✅ Stored registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-15T06:43:44.878Z [INFO]: ✅ Stored registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-15T06:43:44.941Z [INFO]: ✅ Stored registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-15T06:43:44.941Z [INFO]: ✅ Fetched and stored 3 registered addresses
+2025-06-15T06:43:44.942Z [INFO]: Will generate 3 wallets and process them sequentially
+2025-06-15T06:43:44.942Z [INFO]: Database connection status: Connected
+2025-06-15T06:43:44.942Z [INFO]: 
+--- Processing Pair 1/3 ---
+2025-06-15T06:43:45.041Z [ERROR]: ❌ Error generating wallet 1: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 1 }
+2025-06-15T06:43:45.042Z [ERROR]: ❌ Error processing pair 1: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 1 }
+2025-06-15T06:43:45.042Z [INFO]: 
+--- Processing Pair 2/3 ---
+2025-06-15T06:43:45.137Z [ERROR]: ❌ Error generating wallet 2: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 2 }
+2025-06-15T06:43:45.138Z [ERROR]: ❌ Error processing pair 2: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 2 }
+2025-06-15T06:43:45.139Z [INFO]: 
+--- Processing Pair 3/3 ---
+2025-06-15T06:43:45.240Z [ERROR]: ❌ Error generating wallet 3: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 3 }
+2025-06-15T06:43:45.240Z [ERROR]: ❌ Error processing pair 3: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 3 }
+2025-06-15T06:43:45.241Z [INFO]: 
+================================================
+2025-06-15T06:43:45.241Z [INFO]: 🎉 SEQUENTIAL WORKFLOW COMPLETED!
+2025-06-15T06:43:45.242Z [INFO]: ================================================
+2025-06-15T06:43:45.242Z [INFO]: 📊 FINAL STATISTICS:
+2025-06-15T06:43:45.242Z [INFO]: - Total registered in contract: 3
+2025-06-15T06:43:45.242Z [INFO]: - Registered addresses fetched: 3
+2025-06-15T06:43:45.243Z [INFO]: - Wallets generated: 0
+2025-06-15T06:43:45.243Z [INFO]: - Platform changes completed: 0
+2025-06-15T06:43:45.243Z [INFO]: - Transfers completed: 0
+2025-06-15T06:43:45.244Z [INFO]: - Total errors: 3
+2025-06-15T06:43:45.244Z [INFO]: - Total duration: 0 minutes
+2025-06-15T06:43:45.244Z [INFO]: ================================================
+2025-06-15T06:43:45.248Z [INFO]: 📄 Final report saved to: data/sequential-workflow-report-2025-06-15T06-43-45-246Z.json
+2025-06-15T06:43:45.250Z [INFO]: 📊 CSV report saved to: data/sequential-workflow-pairs-2025-06-15T06-43-45-249Z.csv
+2025-06-15T06:43:52.149Z [INFO]: 🚀 STARTING SEQUENTIAL AUTOMATION WORKFLOW
+2025-06-15T06:43:52.149Z [INFO]: ================================================
+2025-06-15T06:43:52.150Z [INFO]: 📥 Step 1: Fetching registered addresses from contract...
+2025-06-15T06:43:53.158Z [INFO]: Found 3 registered addresses in contract
+2025-06-15T06:43:53.222Z [INFO]: Cleared existing registered addresses from database
+2025-06-15T06:43:53.273Z [INFO]: ✅ Stored registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-15T06:43:53.324Z [INFO]: ✅ Stored registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-15T06:43:53.378Z [INFO]: ✅ Stored registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-15T06:43:53.379Z [INFO]: ✅ Fetched and stored 3 registered addresses
+2025-06-15T06:43:53.379Z [INFO]: Will generate 3 wallets and process them sequentially
+2025-06-15T06:43:53.380Z [INFO]: Database connection status: Connected
+2025-06-15T06:43:53.380Z [INFO]: 
+--- Processing Pair 1/3 ---
+2025-06-15T06:43:53.464Z [ERROR]: ❌ Error generating wallet 1: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 1 }
+2025-06-15T06:43:53.465Z [ERROR]: ❌ Error processing pair 1: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 1 }
+2025-06-15T06:43:53.465Z [INFO]: 
+--- Processing Pair 2/3 ---
+2025-06-15T06:43:53.547Z [ERROR]: ❌ Error generating wallet 2: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 2 }
+2025-06-15T06:43:53.549Z [ERROR]: ❌ Error processing pair 2: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 2 }
+2025-06-15T06:43:53.549Z [INFO]: 
+--- Processing Pair 3/3 ---
+2025-06-15T06:43:53.646Z [ERROR]: ❌ Error generating wallet 3: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 3 }
+2025-06-15T06:43:53.647Z [ERROR]: ❌ Error processing pair 3: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 3 }
+2025-06-15T06:43:53.648Z [INFO]: 
+================================================
+2025-06-15T06:43:53.649Z [INFO]: 🎉 SEQUENTIAL WORKFLOW COMPLETED!
+2025-06-15T06:43:53.650Z [INFO]: ================================================
+2025-06-15T06:43:53.650Z [INFO]: 📊 FINAL STATISTICS:
+2025-06-15T06:43:53.651Z [INFO]: - Total registered in contract: 3
+2025-06-15T06:43:53.652Z [INFO]: - Registered addresses fetched: 3
+2025-06-15T06:43:53.653Z [INFO]: - Wallets generated: 0
+2025-06-15T06:43:53.653Z [INFO]: - Platform changes completed: 0
+2025-06-15T06:43:53.654Z [INFO]: - Transfers completed: 0
+2025-06-15T06:43:53.655Z [INFO]: - Total errors: 3
+2025-06-15T06:43:53.656Z [INFO]: - Total duration: 0 minutes
+2025-06-15T06:43:53.656Z [INFO]: ================================================
+2025-06-15T06:43:53.658Z [INFO]: 📄 Final report saved to: data/sequential-workflow-report-2025-06-15T06-43-53-657Z.json
+2025-06-15T06:43:53.660Z [INFO]: 📊 CSV report saved to: data/sequential-workflow-pairs-2025-06-15T06-43-53-659Z.csv
+2025-06-15T06:43:55.245Z [INFO]: 🚀 STARTING SEQUENTIAL AUTOMATION WORKFLOW
+2025-06-15T06:43:55.246Z [INFO]: ================================================
+2025-06-15T06:43:55.246Z [INFO]: 📥 Step 1: Fetching registered addresses from contract...
+2025-06-15T06:43:56.230Z [INFO]: Found 3 registered addresses in contract
+2025-06-15T06:43:56.280Z [INFO]: Cleared existing registered addresses from database
+2025-06-15T06:43:56.340Z [INFO]: ✅ Stored registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-15T06:43:56.399Z [INFO]: ✅ Stored registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-15T06:43:56.454Z [INFO]: ✅ Stored registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-15T06:43:56.455Z [INFO]: ✅ Fetched and stored 3 registered addresses
+2025-06-15T06:43:56.455Z [INFO]: Will generate 3 wallets and process them sequentially
+2025-06-15T06:43:56.456Z [INFO]: Database connection status: Connected
+2025-06-15T06:43:56.457Z [INFO]: 
+--- Processing Pair 1/3 ---
+2025-06-15T06:43:56.538Z [ERROR]: ❌ Error generating wallet 1: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 1 }
+2025-06-15T06:43:56.539Z [ERROR]: ❌ Error processing pair 1: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 1 }
+2025-06-15T06:43:56.540Z [INFO]: 
+--- Processing Pair 2/3 ---
+2025-06-15T06:43:56.642Z [ERROR]: ❌ Error generating wallet 2: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 2 }
+2025-06-15T06:43:56.643Z [ERROR]: ❌ Error processing pair 2: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 2 }
+2025-06-15T06:43:56.644Z [INFO]: 
+--- Processing Pair 3/3 ---
+2025-06-15T06:43:56.727Z [ERROR]: ❌ Error generating wallet 3: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 3 }
+2025-06-15T06:43:56.727Z [ERROR]: ❌ Error processing pair 3: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 3 }
+2025-06-15T06:43:56.728Z [INFO]: 
+================================================
+2025-06-15T06:43:56.728Z [INFO]: 🎉 SEQUENTIAL WORKFLOW COMPLETED!
+2025-06-15T06:43:56.728Z [INFO]: ================================================
+2025-06-15T06:43:56.728Z [INFO]: 📊 FINAL STATISTICS:
+2025-06-15T06:43:56.728Z [INFO]: - Total registered in contract: 3
+2025-06-15T06:43:56.729Z [INFO]: - Registered addresses fetched: 3
+2025-06-15T06:43:56.729Z [INFO]: - Wallets generated: 0
+2025-06-15T06:43:56.729Z [INFO]: - Platform changes completed: 0
+2025-06-15T06:43:56.730Z [INFO]: - Transfers completed: 0
+2025-06-15T06:43:56.730Z [INFO]: - Total errors: 3
+2025-06-15T06:43:56.730Z [INFO]: - Total duration: 0 minutes
+2025-06-15T06:43:56.730Z [INFO]: ================================================
+2025-06-15T06:43:56.732Z [INFO]: 📄 Final report saved to: data/sequential-workflow-report-2025-06-15T06-43-56-731Z.json
+2025-06-15T06:43:56.735Z [INFO]: 📊 CSV report saved to: data/sequential-workflow-pairs-2025-06-15T06-43-56-732Z.csv
+2025-06-15T06:43:57.773Z [INFO]: 🚀 STARTING SEQUENTIAL AUTOMATION WORKFLOW
+2025-06-15T06:43:57.773Z [INFO]: ================================================
+2025-06-15T06:43:57.773Z [INFO]: 📥 Step 1: Fetching registered addresses from contract...
+2025-06-15T06:43:59.337Z [INFO]: Found 3 registered addresses in contract
+2025-06-15T06:43:59.386Z [INFO]: Cleared existing registered addresses from database
+2025-06-15T06:43:59.443Z [INFO]: ✅ Stored registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-15T06:43:59.491Z [INFO]: ✅ Stored registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-15T06:43:59.545Z [INFO]: ✅ Stored registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-15T06:43:59.546Z [INFO]: ✅ Fetched and stored 3 registered addresses
+2025-06-15T06:43:59.547Z [INFO]: Will generate 3 wallets and process them sequentially
+2025-06-15T06:43:59.547Z [INFO]: Database connection status: Connected
+2025-06-15T06:43:59.548Z [INFO]: 
+--- Processing Pair 1/3 ---
+2025-06-15T06:43:59.630Z [ERROR]: ❌ Error generating wallet 1: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 1 }
+2025-06-15T06:43:59.631Z [ERROR]: ❌ Error processing pair 1: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 1 }
+2025-06-15T06:43:59.631Z [INFO]: 
+--- Processing Pair 2/3 ---
+2025-06-15T06:43:59.709Z [ERROR]: ❌ Error generating wallet 2: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 2 }
+2025-06-15T06:43:59.710Z [ERROR]: ❌ Error processing pair 2: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 2 }
+2025-06-15T06:43:59.710Z [INFO]: 
+--- Processing Pair 3/3 ---
+2025-06-15T06:43:59.775Z [ERROR]: ❌ Error generating wallet 3: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 3 }
+2025-06-15T06:43:59.775Z [ERROR]: ❌ Error processing pair 3: E11000 duplicate key error collection: test.wallets index: walletId_1 dup key: { walletId: 3 }
+2025-06-15T06:43:59.776Z [INFO]: 
+================================================
+2025-06-15T06:43:59.776Z [INFO]: 🎉 SEQUENTIAL WORKFLOW COMPLETED!
+2025-06-15T06:43:59.776Z [INFO]: ================================================
+2025-06-15T06:43:59.776Z [INFO]: 📊 FINAL STATISTICS:
+2025-06-15T06:43:59.777Z [INFO]: - Total registered in contract: 3
+2025-06-15T06:43:59.777Z [INFO]: - Registered addresses fetched: 3
+2025-06-15T06:43:59.777Z [INFO]: - Wallets generated: 0
+2025-06-15T06:43:59.777Z [INFO]: - Platform changes completed: 0
+2025-06-15T06:43:59.778Z [INFO]: - Transfers completed: 0
+2025-06-15T06:43:59.778Z [INFO]: - Total errors: 3
+2025-06-15T06:43:59.778Z [INFO]: - Total duration: 0 minutes
+2025-06-15T06:43:59.778Z [INFO]: ================================================
+2025-06-15T06:43:59.779Z [INFO]: 📄 Final report saved to: data/sequential-workflow-report-2025-06-15T06-43-59-779Z.json
+2025-06-15T06:43:59.780Z [INFO]: 📊 CSV report saved to: data/sequential-workflow-pairs-2025-06-15T06-43-59-780Z.csv
