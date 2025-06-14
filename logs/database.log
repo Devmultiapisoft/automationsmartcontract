@@ -1,0 +1,122 @@
+2025-06-14T09:24:21.375Z [INFO]: Connecting to MongoDB...
+2025-06-14T09:24:22.374Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T09:24:22.677Z [INFO]: Database indexes created successfully
+2025-06-14T09:24:41.144Z [INFO]: Database already connected
+2025-06-14T09:31:10.337Z [INFO]: Database already connected
+2025-06-14T09:31:27.772Z [INFO]: Connecting to MongoDB...
+2025-06-14T09:31:28.736Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T09:31:29.014Z [INFO]: Database indexes created successfully
+2025-06-14T09:31:29.569Z [WARN]: MongoDB disconnected
+2025-06-14T09:31:49.793Z [WARN]: MongoDB disconnected
+2025-06-14T09:31:50.720Z [INFO]: MongoDB reconnected
+2025-06-14T09:31:54.974Z [WARN]: MongoDB disconnected
+2025-06-14T09:31:55.278Z [INFO]: MongoDB reconnected
+2025-06-14T09:33:01.747Z [WARN]: MongoDB disconnected
+2025-06-14T09:33:12.403Z [INFO]: Connecting to MongoDB...
+2025-06-14T09:33:17.624Z [ERROR]: Failed to connect to MongoDB: Server selection timed out after 5000 ms
+2025-06-14T09:33:30.562Z [INFO]: Connecting to MongoDB...
+2025-06-14T09:33:31.273Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T09:33:31.564Z [INFO]: Database indexes created successfully
+2025-06-14T09:37:47.422Z [INFO]: Connecting to MongoDB...
+2025-06-14T09:37:48.505Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T09:37:48.774Z [INFO]: Database indexes created successfully
+2025-06-14T09:38:14.782Z [WARN]: MongoDB disconnected
+2025-06-14T09:38:17.530Z [INFO]: Connecting to MongoDB...
+2025-06-14T09:38:18.381Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T09:38:18.670Z [INFO]: Database indexes created successfully
+2025-06-14T09:38:53.190Z [WARN]: MongoDB disconnected
+2025-06-14T09:39:19.522Z [INFO]: Connecting to MongoDB...
+2025-06-14T09:39:24.831Z [ERROR]: Failed to connect to MongoDB: Server selection timed out after 5000 ms
+2025-06-14T09:39:36.740Z [INFO]: Connecting to MongoDB...
+2025-06-14T09:39:37.652Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T09:39:37.904Z [INFO]: Database indexes created successfully
+2025-06-14T10:06:03.146Z [WARN]: MongoDB disconnected
+2025-06-14T10:06:21.824Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:06:22.843Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T10:06:23.135Z [INFO]: Database indexes created successfully
+2025-06-14T10:06:37.280Z [WARN]: MongoDB disconnected
+2025-06-14T10:07:14.584Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:07:15.567Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T10:07:15.855Z [INFO]: Database indexes created successfully
+2025-06-14T10:07:34.588Z [INFO]: Database already connected
+2025-06-14T10:08:06.566Z [WARN]: MongoDB disconnected
+2025-06-14T10:08:06.566Z [INFO]: Disconnected from MongoDB
+2025-06-14T10:08:23.163Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:08:28.262Z [WARN]: MongoDB disconnected
+2025-06-14T10:08:28.264Z [ERROR]: Failed to connect to MongoDB: Server selection timed out after 5000 ms
+2025-06-14T10:08:28.267Z [ERROR]: MongoDB connection error: Server selection timed out after 5000 ms
+2025-06-14T10:08:40.858Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:08:49.640Z [INFO]: Database not connected
+2025-06-14T10:08:52.412Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:08:57.552Z [ERROR]: Failed to connect to MongoDB: Server selection timed out after 5000 ms
+2025-06-14T10:09:07.799Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:09:13.073Z [ERROR]: Failed to connect to MongoDB: Server selection timed out after 5000 ms
+2025-06-14T10:09:31.043Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:09:31.979Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T10:09:32.294Z [INFO]: Database indexes created successfully
+2025-06-14T10:14:16.539Z [WARN]: MongoDB disconnected
+2025-06-14T10:23:27.596Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:23:28.709Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T10:23:28.992Z [INFO]: Database indexes created successfully
+2025-06-14T10:24:08.890Z [INFO]: Database already connected
+2025-06-14T10:24:11.077Z [WARN]: MongoDB disconnected
+2025-06-14T10:24:11.078Z [INFO]: Disconnected from MongoDB
+2025-06-14T10:24:28.322Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:24:29.229Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T10:24:29.231Z [INFO]: Database already connected
+2025-06-14T10:24:30.581Z [WARN]: MongoDB disconnected
+2025-06-14T10:24:30.582Z [WARN]: MongoDB disconnected
+2025-06-14T10:24:30.582Z [INFO]: Disconnected from MongoDB
+2025-06-14T10:24:30.690Z [INFO]: Database not connected
+2025-06-14T10:24:38.641Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:24:39.492Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T10:30:52.804Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:30:53.879Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T10:30:54.162Z [INFO]: Database indexes created successfully
+2025-06-14T10:31:10.486Z [WARN]: MongoDB disconnected
+2025-06-14T10:31:15.800Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:31:16.662Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T10:31:16.945Z [INFO]: Database indexes created successfully
+2025-06-14T10:32:08.260Z [INFO]: Database already connected
+2025-06-14T10:32:09.655Z [WARN]: MongoDB disconnected
+2025-06-14T10:32:09.656Z [INFO]: Disconnected from MongoDB
+2025-06-14T10:32:13.440Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:32:14.223Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T10:32:58.870Z [WARN]: MongoDB disconnected
+2025-06-14T10:32:58.871Z [WARN]: MongoDB disconnected
+2025-06-14T10:32:58.871Z [INFO]: Disconnected from MongoDB
+2025-06-14T10:33:08.669Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:33:09.469Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T10:34:17.847Z [INFO]: Database already connected
+2025-06-14T10:34:30.221Z [WARN]: MongoDB disconnected
+2025-06-14T10:34:30.221Z [WARN]: MongoDB disconnected
+2025-06-14T10:34:30.222Z [WARN]: MongoDB disconnected
+2025-06-14T10:34:32.030Z [INFO]: MongoDB reconnected
+2025-06-14T10:34:32.031Z [INFO]: MongoDB reconnected
+2025-06-14T10:34:32.031Z [INFO]: MongoDB reconnected
+2025-06-14T10:35:02.627Z [WARN]: MongoDB disconnected
+2025-06-14T10:35:02.628Z [WARN]: MongoDB disconnected
+2025-06-14T10:35:02.628Z [WARN]: MongoDB disconnected
+2025-06-14T10:35:02.628Z [INFO]: Disconnected from MongoDB
+2025-06-14T10:35:09.136Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:35:30.719Z [WARN]: MongoDB disconnected
+2025-06-14T10:35:30.719Z [WARN]: MongoDB disconnected
+2025-06-14T10:35:30.720Z [WARN]: MongoDB disconnected
+2025-06-14T10:35:30.720Z [ERROR]: Failed to connect to MongoDB: connect ETIMEDOUT 159.41.226.219:27017
+2025-06-14T10:35:30.721Z [ERROR]: MongoDB connection error: connect ETIMEDOUT 159.41.226.219:27017
+2025-06-14T10:35:30.721Z [ERROR]: MongoDB connection error: connect ETIMEDOUT 159.41.226.219:27017
+2025-06-14T10:35:30.721Z [ERROR]: MongoDB connection error: connect ETIMEDOUT 159.41.226.219:27017
+2025-06-14T10:35:39.278Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:35:40.178Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T10:41:40.457Z [WARN]: MongoDB disconnected
+2025-06-14T10:44:04.345Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:44:09.815Z [ERROR]: Failed to connect to MongoDB: Server selection timed out after 5000 ms
+2025-06-14T10:48:42.081Z [INFO]: Connecting to MongoDB...
+2025-06-14T10:48:42.963Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T10:48:43.244Z [INFO]: Database indexes created successfully
+2025-06-14T10:49:04.078Z [WARN]: MongoDB disconnected
+2025-06-14T10:49:14.314Z [INFO]: MongoDB reconnected
+2025-06-14T11:20:06.364Z [WARN]: MongoDB disconnected
+2025-06-14T11:21:08.219Z [INFO]: Connecting to MongoDB...
+2025-06-14T11:21:09.114Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-14T11:21:09.449Z [INFO]: Database indexes created successfully

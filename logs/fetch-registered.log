@@ -1,0 +1,24 @@
+2025-06-14T10:24:08.795Z [INFO]: 🔄 Fetching registered addresses from contract...
+2025-06-14T10:24:10.275Z [INFO]: Found 3 registered addresses in contract
+2025-06-14T10:24:10.432Z [INFO]: Cleared existing registered addresses from database
+2025-06-14T10:24:10.581Z [INFO]: ✅ Stored registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-14T10:24:10.718Z [INFO]: ✅ Stored registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-14T10:24:10.862Z [INFO]: ✅ Stored registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-14T10:24:10.928Z [INFO]: ✅ Successfully stored 3/3 registered addresses
+2025-06-14T10:24:11.061Z [INFO]: 📊 Database stats: 3 total, 0 completed, 0 with errors
+2025-06-14T10:24:29.231Z [INFO]: 🔄 Fetching registered addresses from contract...
+2025-06-14T10:24:30.277Z [INFO]: Found 3 registered addresses in contract
+2025-06-14T10:24:30.330Z [INFO]: Cleared existing registered addresses from database
+2025-06-14T10:24:30.394Z [INFO]: ✅ Stored registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-14T10:24:30.449Z [INFO]: ✅ Stored registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-14T10:24:30.520Z [INFO]: ✅ Stored registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-14T10:24:30.521Z [INFO]: ✅ Successfully stored 3/3 registered addresses
+2025-06-14T10:24:30.576Z [INFO]: 📊 Database stats: 3 total, 0 completed, 0 with errors
+2025-06-14T10:32:08.259Z [INFO]: 🔄 Fetching registered addresses from contract...
+2025-06-14T10:32:09.270Z [INFO]: Found 3 registered addresses in contract
+2025-06-14T10:32:09.333Z [INFO]: Cleared existing registered addresses from database
+2025-06-14T10:32:09.425Z [INFO]: ✅ Stored registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-14T10:32:09.494Z [INFO]: ✅ Stored registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-14T10:32:09.580Z [INFO]: ✅ Stored registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-14T10:32:09.580Z [INFO]: ✅ Successfully stored 3/3 registered addresses
+2025-06-14T10:32:09.646Z [INFO]: 📊 Database stats: 3 total, 0 completed, 0 with errors

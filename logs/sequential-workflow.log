@@ -1,0 +1,225 @@
+2025-06-14T10:07:34.587Z [INFO]: 🚀 STARTING SEQUENTIAL AUTOMATION WORKFLOW
+2025-06-14T10:07:34.588Z [INFO]: ================================================
+2025-06-14T10:07:34.589Z [INFO]: Getting total registered users from contract...
+2025-06-14T10:07:35.591Z [INFO]: Contract has 3 registered users
+2025-06-14T10:07:35.592Z [INFO]: Will generate and process 3 wallets sequentially
+2025-06-14T10:07:35.593Z [INFO]: 
+--- Processing Wallet 1/3 ---
+2025-06-14T10:07:35.749Z [INFO]: ✅ Generated and stored wallet 1: 0x9EcA754c6C462f6810be77E7e44b6049b312a504
+2025-06-14T10:07:36.765Z [INFO]: 🔄 Performing platform change for wallet 1: 0x9eca754c6c462f6810be77e7e44b6049b312a504
+2025-06-14T10:07:41.448Z [INFO]: ✅ Platform change completed for 0x9eca754c6c462f6810be77e7e44b6049b312a504. TX: 0x829b850fbb6a97b192b67c7cdad163f72425e609e4f5792cdb6fa9ccc9eb5602
+2025-06-14T10:07:43.454Z [INFO]: 💸 Performing single transfer for wallet 1: 0x9eca754c6c462f6810be77e7e44b6049b312a504
+2025-06-14T10:07:44.008Z [ERROR]: ❌ Transfer failed for 0x9eca754c6c462f6810be77e7e44b6049b312a504: Address 0x9eca754c6c462f6810be77e7e44b6049b312a504 is not registered
+2025-06-14T10:07:44.009Z [INFO]: Waiting 3000ms before next wallet...
+2025-06-14T10:07:47.013Z [INFO]: 
+--- Processing Wallet 2/3 ---
+2025-06-14T10:07:47.099Z [INFO]: ✅ Generated and stored wallet 2: 0x716De2F7fCf1E5B9f09229A97776C53D621Af9cB
+2025-06-14T10:07:48.109Z [INFO]: 🔄 Performing platform change for wallet 2: 0x716de2f7fcf1e5b9f09229a97776c53d621af9cb
+2025-06-14T10:07:52.719Z [INFO]: ✅ Platform change completed for 0x716de2f7fcf1e5b9f09229a97776c53d621af9cb. TX: 0xe910fccc4a5f46ec98ab7275c103d6c06dbb66a031748cf30e88c78a8e5ab816
+2025-06-14T10:07:54.735Z [INFO]: 💸 Performing single transfer for wallet 2: 0x716de2f7fcf1e5b9f09229a97776c53d621af9cb
+2025-06-14T10:07:55.306Z [ERROR]: ❌ Transfer failed for 0x716de2f7fcf1e5b9f09229a97776c53d621af9cb: Address 0x716de2f7fcf1e5b9f09229a97776c53d621af9cb is not registered
+2025-06-14T10:07:55.307Z [INFO]: Waiting 3000ms before next wallet...
+2025-06-14T10:07:58.321Z [INFO]: 
+--- Processing Wallet 3/3 ---
+2025-06-14T10:07:58.406Z [INFO]: ✅ Generated and stored wallet 3: 0x87a1Ee431CB53E6E201b19b9FaD8fBE9117E606d
+2025-06-14T10:07:59.412Z [INFO]: 🔄 Performing platform change for wallet 3: 0x87a1ee431cb53e6e201b19b9fad8fbe9117e606d
+2025-06-14T10:08:04.008Z [INFO]: ✅ Platform change completed for 0x87a1ee431cb53e6e201b19b9fad8fbe9117e606d. TX: 0xffc27f3a41300f03a381250b6d35e381ad786d0f73948042c15ee87ce824bf02
+2025-06-14T10:08:06.016Z [INFO]: 💸 Performing single transfer for wallet 3: 0x87a1ee431cb53e6e201b19b9fad8fbe9117e606d
+2025-06-14T10:08:06.556Z [ERROR]: ❌ Transfer failed for 0x87a1ee431cb53e6e201b19b9fad8fbe9117e606d: Address 0x87a1ee431cb53e6e201b19b9fad8fbe9117e606d is not registered
+2025-06-14T10:08:06.556Z [INFO]: 
+================================================
+2025-06-14T10:08:06.557Z [INFO]: 🎉 SEQUENTIAL WORKFLOW COMPLETED!
+2025-06-14T10:08:06.557Z [INFO]: ================================================
+2025-06-14T10:08:06.557Z [INFO]: 📊 FINAL STATISTICS:
+2025-06-14T10:08:06.557Z [INFO]: - Total registered in contract: 3
+2025-06-14T10:08:06.558Z [INFO]: - Wallets generated: 3
+2025-06-14T10:08:06.558Z [INFO]: - Platform changes completed: 3
+2025-06-14T10:08:06.558Z [INFO]: - Transfers completed: 0
+2025-06-14T10:08:06.558Z [INFO]: - Total errors: 3
+2025-06-14T10:08:06.559Z [INFO]: - Total duration: 1 minutes
+2025-06-14T10:08:06.559Z [INFO]: ================================================
+2025-06-14T10:08:06.561Z [INFO]: 📄 Final report saved to: data/sequential-workflow-report-2025-06-14T10-08-06-560Z.json
+2025-06-14T10:24:28.321Z [INFO]: 🚀 STARTING SEQUENTIAL AUTOMATION WORKFLOW
+2025-06-14T10:24:28.321Z [INFO]: ================================================
+2025-06-14T10:24:29.230Z [INFO]: 📥 Step 1: Fetching registered addresses from contract...
+2025-06-14T10:24:30.583Z [INFO]: ✅ Fetched and stored 3 registered addresses
+2025-06-14T10:24:30.585Z [INFO]: Will generate 3 wallets and process them sequentially
+2025-06-14T10:24:30.586Z [INFO]: 
+--- Processing Pair 1/3 ---
+2025-06-14T10:24:30.636Z [ERROR]: ❌ Error generating wallet 1: Client must be connected before running operations
+2025-06-14T10:24:30.637Z [ERROR]: ❌ Error processing pair 1: Client must be connected before running operations
+2025-06-14T10:24:30.637Z [INFO]: 
+--- Processing Pair 2/3 ---
+2025-06-14T10:24:30.660Z [ERROR]: ❌ Error generating wallet 2: Client must be connected before running operations
+2025-06-14T10:24:30.660Z [ERROR]: ❌ Error processing pair 2: Client must be connected before running operations
+2025-06-14T10:24:30.661Z [INFO]: 
+--- Processing Pair 3/3 ---
+2025-06-14T10:24:30.682Z [ERROR]: ❌ Error generating wallet 3: Client must be connected before running operations
+2025-06-14T10:24:30.682Z [ERROR]: ❌ Error processing pair 3: Client must be connected before running operations
+2025-06-14T10:24:30.682Z [INFO]: 
+================================================
+2025-06-14T10:24:30.682Z [INFO]: 🎉 SEQUENTIAL WORKFLOW COMPLETED!
+2025-06-14T10:24:30.683Z [INFO]: ================================================
+2025-06-14T10:24:30.683Z [INFO]: 📊 FINAL STATISTICS:
+2025-06-14T10:24:30.684Z [INFO]: - Total registered in contract: 3
+2025-06-14T10:24:30.684Z [INFO]: - Registered addresses fetched: 3
+2025-06-14T10:24:30.684Z [INFO]: - Wallets generated: 0
+2025-06-14T10:24:30.685Z [INFO]: - Platform changes completed: 0
+2025-06-14T10:24:30.685Z [INFO]: - Transfers completed: 0
+2025-06-14T10:24:30.685Z [INFO]: - Total errors: 3
+2025-06-14T10:24:30.685Z [INFO]: - Total duration: 0 minutes
+2025-06-14T10:24:30.686Z [INFO]: ================================================
+2025-06-14T10:24:30.690Z [INFO]: 📄 Final report saved to: data/sequential-workflow-report-2025-06-14T10-24-30-688Z.json
+2025-06-14T10:32:13.439Z [INFO]: 🚀 STARTING SEQUENTIAL AUTOMATION WORKFLOW
+2025-06-14T10:32:13.439Z [INFO]: ================================================
+2025-06-14T10:32:14.224Z [INFO]: 📥 Step 1: Fetching registered addresses from contract...
+2025-06-14T10:32:15.250Z [INFO]: Found 3 registered addresses in contract
+2025-06-14T10:32:15.314Z [INFO]: Cleared existing registered addresses from database
+2025-06-14T10:32:15.379Z [INFO]: ✅ Stored registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-14T10:32:15.429Z [INFO]: ✅ Stored registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-14T10:32:15.479Z [INFO]: ✅ Stored registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-14T10:32:15.479Z [INFO]: ✅ Fetched and stored 3 registered addresses
+2025-06-14T10:32:15.479Z [INFO]: Will generate 3 wallets and process them sequentially
+2025-06-14T10:32:15.480Z [INFO]: Database connection status: Connected
+2025-06-14T10:32:15.480Z [INFO]: 
+--- Processing Pair 1/3 ---
+2025-06-14T10:32:15.572Z [INFO]: ✅ Generated and stored wallet 1: 0x67a83D039118D0a4F8a80a1e33904c182284f357
+2025-06-14T10:32:16.584Z [INFO]: 🔄 Performing platform change for wallet 1: 0x67a83d039118d0a4f8a80a1e33904c182284f357
+2025-06-14T10:32:21.269Z [INFO]: ✅ Platform change completed for 0x67a83d039118d0a4f8a80a1e33904c182284f357. TX: 0x4fb827576db9460ec285ba1bf0b7d5cf1bb243c3c87df61c2fe6e9f734bbcf06
+2025-06-14T10:32:23.343Z [INFO]: 🔗 Using registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691 for transfer
+2025-06-14T10:32:23.344Z [INFO]: 💸 Performing single transfer for registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-14T10:32:27.429Z [INFO]: ✅ Transfer completed for 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691. TX: 0x3c6c58d95385af8df9ef9dff7378d0ba7242d5554ad122fc80720700c88f4c60
+2025-06-14T10:32:27.429Z [INFO]: Waiting 3000ms before next pair...
+2025-06-14T10:32:30.444Z [INFO]: 
+--- Processing Pair 2/3 ---
+2025-06-14T10:32:30.554Z [INFO]: ✅ Generated and stored wallet 2: 0xC76b35e6102267E13d065cf7c2a1F496594615EF
+2025-06-14T10:32:31.558Z [INFO]: 🔄 Performing platform change for wallet 2: 0xc76b35e6102267e13d065cf7c2a1f496594615ef
+2025-06-14T10:32:36.333Z [INFO]: ✅ Platform change completed for 0xc76b35e6102267e13d065cf7c2a1f496594615ef. TX: 0xc82b472b0ef299cb19771fa8f8b4bc09009e1431bd2df1a3f86964d63ea44c64
+2025-06-14T10:32:38.399Z [INFO]: 🔗 Using registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8 for transfer
+2025-06-14T10:32:38.401Z [INFO]: 💸 Performing single transfer for registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-14T10:32:43.659Z [INFO]: ✅ Transfer completed for 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8. TX: 0x7e8f44ba028ee2a72f714aaca20f6b992ea78784fb4576b8b2cc68205d23fac8
+2025-06-14T10:32:43.659Z [INFO]: Waiting 3000ms before next pair...
+2025-06-14T10:32:46.669Z [INFO]: 
+--- Processing Pair 3/3 ---
+2025-06-14T10:32:46.795Z [INFO]: ✅ Generated and stored wallet 3: 0x6DC2423b21b5d3b1b74a605B82dBd72e1eda4e41
+2025-06-14T10:32:47.805Z [INFO]: 🔄 Performing platform change for wallet 3: 0x6dc2423b21b5d3b1b74a605b82dbd72e1eda4e41
+2025-06-14T10:32:52.628Z [INFO]: ✅ Platform change completed for 0x6dc2423b21b5d3b1b74a605b82dbd72e1eda4e41. TX: 0x4f7c0b5a44a5cada080e9d42472f38939d33244e04a2560433753b4dadb73613
+2025-06-14T10:32:54.703Z [INFO]: 🔗 Using registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe for transfer
+2025-06-14T10:32:54.703Z [INFO]: 💸 Performing single transfer for registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-14T10:32:58.862Z [INFO]: ✅ Transfer completed for 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe. TX: 0x01b0a0976214ad652ac1dabf43a8dbaeb54977b4cc543162510a700fce4b0eab
+2025-06-14T10:32:58.863Z [INFO]: 
+================================================
+2025-06-14T10:32:58.863Z [INFO]: 🎉 SEQUENTIAL WORKFLOW COMPLETED!
+2025-06-14T10:32:58.863Z [INFO]: ================================================
+2025-06-14T10:32:58.863Z [INFO]: 📊 FINAL STATISTICS:
+2025-06-14T10:32:58.863Z [INFO]: - Total registered in contract: 3
+2025-06-14T10:32:58.864Z [INFO]: - Registered addresses fetched: 3
+2025-06-14T10:32:58.864Z [INFO]: - Wallets generated: 3
+2025-06-14T10:32:58.864Z [INFO]: - Platform changes completed: 3
+2025-06-14T10:32:58.864Z [INFO]: - Transfers completed: 3
+2025-06-14T10:32:58.864Z [INFO]: - Total errors: 0
+2025-06-14T10:32:58.865Z [INFO]: - Total duration: 1 minutes
+2025-06-14T10:32:58.865Z [INFO]: ================================================
+2025-06-14T10:32:58.867Z [INFO]: 📄 Final report saved to: data/sequential-workflow-report-2025-06-14T10-32-58-865Z.json
+2025-06-14T10:34:17.846Z [INFO]: 🚀 STARTING SEQUENTIAL AUTOMATION WORKFLOW
+2025-06-14T10:34:17.847Z [INFO]: ================================================
+2025-06-14T10:34:17.847Z [INFO]: 📥 Step 1: Fetching registered addresses from contract...
+2025-06-14T10:34:18.855Z [INFO]: Found 3 registered addresses in contract
+2025-06-14T10:34:18.907Z [INFO]: Cleared existing registered addresses from database
+2025-06-14T10:34:18.974Z [INFO]: ✅ Stored registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-14T10:34:19.031Z [INFO]: ✅ Stored registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-14T10:34:19.083Z [INFO]: ✅ Stored registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-14T10:34:19.084Z [INFO]: ✅ Fetched and stored 3 registered addresses
+2025-06-14T10:34:19.084Z [INFO]: Will generate 3 wallets and process them sequentially
+2025-06-14T10:34:19.085Z [INFO]: Database connection status: Connected
+2025-06-14T10:34:19.085Z [INFO]: 
+--- Processing Pair 1/3 ---
+2025-06-14T10:34:19.179Z [INFO]: ✅ Generated and stored wallet 1: 0x73b85CA79ec7223A59c0661ffF117b3131eB41C7
+2025-06-14T10:34:20.193Z [INFO]: 🔄 Performing platform change for wallet 1: 0x73b85ca79ec7223a59c0661fff117b3131eb41c7
+2025-06-14T10:34:24.812Z [INFO]: ✅ Platform change completed for 0x73b85ca79ec7223a59c0661fff117b3131eb41c7. TX: 0xe3ae286eba9f85f419c83167aae210d1057e5f1d49ad9217c280892c755fa83f
+2025-06-14T10:34:26.868Z [INFO]: 🔗 Using registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691 for transfer
+2025-06-14T10:34:26.868Z [INFO]: 💸 Performing single transfer for registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-14T10:34:32.484Z [INFO]: ✅ Transfer completed for 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691. TX: 0x38cd9221c6999369b578bee5630fe1c2e1d2a9fc2606ffb46ac9ab413de423fa
+2025-06-14T10:34:32.486Z [INFO]: Waiting 3000ms before next pair...
+2025-06-14T10:34:35.502Z [INFO]: 
+--- Processing Pair 2/3 ---
+2025-06-14T10:34:35.593Z [INFO]: ✅ Generated and stored wallet 2: 0xedCfa8208C35FA15CE3c7018d20ab63A341F2399
+2025-06-14T10:34:36.599Z [INFO]: 🔄 Performing platform change for wallet 2: 0xedcfa8208c35fa15ce3c7018d20ab63a341f2399
+2025-06-14T10:34:41.385Z [INFO]: ✅ Platform change completed for 0xedcfa8208c35fa15ce3c7018d20ab63a341f2399. TX: 0x1f285c1acef6b01bdfcd5f845000a5632510a971a48f94db7cfbcf841c087aaf
+2025-06-14T10:34:43.469Z [INFO]: 🔗 Using registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8 for transfer
+2025-06-14T10:34:43.469Z [INFO]: 💸 Performing single transfer for registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-14T10:34:47.555Z [INFO]: ✅ Transfer completed for 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8. TX: 0xd9888401e93ffc6c645522e454ce1de899b3bdcab3397fe2858a894a00f268cc
+2025-06-14T10:34:47.555Z [INFO]: Waiting 3000ms before next pair...
+2025-06-14T10:34:50.566Z [INFO]: 
+--- Processing Pair 3/3 ---
+2025-06-14T10:34:50.656Z [INFO]: ✅ Generated and stored wallet 3: 0x593fc72BD659F11Fb06d12c4321F78646e2c079A
+2025-06-14T10:34:51.662Z [INFO]: 🔄 Performing platform change for wallet 3: 0x593fc72bd659f11fb06d12c4321f78646e2c079a
+2025-06-14T10:34:56.451Z [INFO]: ✅ Platform change completed for 0x593fc72bd659f11fb06d12c4321f78646e2c079a. TX: 0x94e8c4bfa5f67ad515225591e09e1dce640150a03ebace4a8bb4e5713e6822a5
+2025-06-14T10:34:58.531Z [INFO]: 🔗 Using registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe for transfer
+2025-06-14T10:34:58.532Z [INFO]: 💸 Performing single transfer for registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-14T10:35:02.618Z [INFO]: ✅ Transfer completed for 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe. TX: 0xd23765798516f0870ce2fc3b2631204f30ddc3b7bdac291fdfdd1d605249ae70
+2025-06-14T10:35:02.619Z [INFO]: 
+================================================
+2025-06-14T10:35:02.619Z [INFO]: 🎉 SEQUENTIAL WORKFLOW COMPLETED!
+2025-06-14T10:35:02.619Z [INFO]: ================================================
+2025-06-14T10:35:02.620Z [INFO]: 📊 FINAL STATISTICS:
+2025-06-14T10:35:02.620Z [INFO]: - Total registered in contract: 3
+2025-06-14T10:35:02.620Z [INFO]: - Registered addresses fetched: 3
+2025-06-14T10:35:02.621Z [INFO]: - Wallets generated: 3
+2025-06-14T10:35:02.621Z [INFO]: - Platform changes completed: 3
+2025-06-14T10:35:02.621Z [INFO]: - Transfers completed: 3
+2025-06-14T10:35:02.621Z [INFO]: - Total errors: 0
+2025-06-14T10:35:02.622Z [INFO]: - Total duration: 1 minutes
+2025-06-14T10:35:02.622Z [INFO]: ================================================
+2025-06-14T10:35:02.624Z [INFO]: 📄 Final report saved to: data/sequential-workflow-report-2025-06-14T10-35-02-623Z.json
+2025-06-14T10:54:30.034Z [INFO]: 🚀 STARTING SEQUENTIAL AUTOMATION WORKFLOW
+2025-06-14T10:54:30.034Z [INFO]: ================================================
+2025-06-14T10:54:30.035Z [INFO]: 📥 Step 1: Fetching registered addresses from contract...
+2025-06-14T10:54:30.980Z [INFO]: Found 3 registered addresses in contract
+2025-06-14T10:54:31.031Z [INFO]: Cleared existing registered addresses from database
+2025-06-14T10:54:31.098Z [INFO]: ✅ Stored registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-14T10:54:31.151Z [INFO]: ✅ Stored registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-14T10:54:31.199Z [INFO]: ✅ Stored registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-14T10:54:31.200Z [INFO]: ✅ Fetched and stored 3 registered addresses
+2025-06-14T10:54:31.200Z [INFO]: Will generate 3 wallets and process them sequentially
+2025-06-14T10:54:31.201Z [INFO]: Database connection status: Connected
+2025-06-14T10:54:31.201Z [INFO]: 
+--- Processing Pair 1/3 ---
+2025-06-14T10:54:31.291Z [INFO]: ✅ Generated and stored wallet 1: 0xf97cC35c929f5219Ab7BE99fc770Ec61Da35Da67
+2025-06-14T10:54:32.298Z [INFO]: 🔄 Performing platform change for wallet 1: 0xf97cc35c929f5219ab7be99fc770ec61da35da67
+2025-06-14T10:54:36.955Z [INFO]: ✅ Platform change completed for 0xf97cc35c929f5219ab7be99fc770ec61da35da67. TX: 0xc2f74e174a6cdb5c14b4998efedabdd5d6aabeb55db1c69415c970723d38b23d
+2025-06-14T10:54:39.023Z [INFO]: 🔗 Using registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691 for transfer
+2025-06-14T10:54:39.024Z [INFO]: 💸 Performing single transfer for registered address 1: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-14T10:54:43.065Z [INFO]: ✅ Transfer completed for 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691. TX: 0x2aba149b05ed0822152107ad9b2098b2343d1d1e9b7c0f2b2c51309a7a3b4340
+2025-06-14T10:54:43.066Z [INFO]: Waiting 3000ms before next pair...
+2025-06-14T10:54:46.073Z [INFO]: 
+--- Processing Pair 2/3 ---
+2025-06-14T10:54:46.141Z [INFO]: ✅ Generated and stored wallet 2: 0x6d293390b93FdEDAa1aB4E5b5867912977B1be88
+2025-06-14T10:54:47.144Z [INFO]: 🔄 Performing platform change for wallet 2: 0x6d293390b93fdedaa1ab4e5b5867912977b1be88
+2025-06-14T10:54:50.662Z [INFO]: ✅ Platform change completed for 0x6d293390b93fdedaa1ab4e5b5867912977b1be88. TX: 0xac733e70ab67db6e2c5cfa1ca5ddf16ea4b122a2406c087f5316e09bd3a2cfbd
+2025-06-14T10:54:52.719Z [INFO]: 🔗 Using registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8 for transfer
+2025-06-14T10:54:52.720Z [INFO]: 💸 Performing single transfer for registered address 2: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-14T10:54:58.080Z [INFO]: ✅ Transfer completed for 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8. TX: 0x388f2409e5e31cd606fcb0d6f5639e42ae0e9341f44df4295a1031d3619b3056
+2025-06-14T10:54:58.080Z [INFO]: Waiting 3000ms before next pair...
+2025-06-14T10:55:01.082Z [INFO]: 
+--- Processing Pair 3/3 ---
+2025-06-14T10:55:01.155Z [INFO]: ✅ Generated and stored wallet 3: 0xE96E3879516BF852003AE696061AEaeD2598027C
+2025-06-14T10:55:02.170Z [INFO]: 🔄 Performing platform change for wallet 3: 0xe96e3879516bf852003ae696061aeaed2598027c
+2025-06-14T10:55:06.875Z [INFO]: ✅ Platform change completed for 0xe96e3879516bf852003ae696061aeaed2598027c. TX: 0x0d3b87ab785878ad1eea95ffc14643ea0ddd5f7b806bf464d06fbc2647abaf95
+2025-06-14T10:55:08.939Z [INFO]: 🔗 Using registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe for transfer
+2025-06-14T10:55:08.940Z [INFO]: 💸 Performing single transfer for registered address 3: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-14T10:55:13.141Z [INFO]: ✅ Transfer completed for 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe. TX: 0x185aa041050d2e031da1054c007a0cd2fd3728ec065d3bf064962d0047c129ff
+2025-06-14T10:55:13.141Z [INFO]: 
+================================================
+2025-06-14T10:55:13.141Z [INFO]: 🎉 SEQUENTIAL WORKFLOW COMPLETED!
+2025-06-14T10:55:13.142Z [INFO]: ================================================
+2025-06-14T10:55:13.142Z [INFO]: 📊 FINAL STATISTICS:
+2025-06-14T10:55:13.142Z [INFO]: - Total registered in contract: 3
+2025-06-14T10:55:13.142Z [INFO]: - Registered addresses fetched: 3
+2025-06-14T10:55:13.143Z [INFO]: - Wallets generated: 3
+2025-06-14T10:55:13.143Z [INFO]: - Platform changes completed: 3
+2025-06-14T10:55:13.143Z [INFO]: - Transfers completed: 3
+2025-06-14T10:55:13.143Z [INFO]: - Total errors: 0
+2025-06-14T10:55:13.143Z [INFO]: - Total duration: 1 minutes
+2025-06-14T10:55:13.143Z [INFO]: ================================================
+2025-06-14T10:55:13.146Z [INFO]: 📄 Final report saved to: data/sequential-workflow-report-2025-06-14T10-55-13-144Z.json

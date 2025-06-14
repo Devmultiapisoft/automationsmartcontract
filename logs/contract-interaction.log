@@ -1,0 +1,287 @@
+2025-06-14T09:24:23.258Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T09:24:23.483Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T09:24:23.994Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T09:24:25.227Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:24:26.273Z [INFO]: Found 0 registered addresses
+2025-06-14T09:24:29.569Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:24:30.562Z [INFO]: Found 0 registered addresses
+2025-06-14T09:24:34.642Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:24:35.642Z [INFO]: Found 0 registered addresses
+2025-06-14T09:26:28.183Z [ERROR]: Error getting contract owner: Client network socket disconnected before secure TLS connection was established
+2025-06-14T09:26:28.186Z [ERROR]: Error getting contract owner: Client network socket disconnected before secure TLS connection was established
+2025-06-14T09:31:29.507Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T09:31:29.602Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T09:31:30.106Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T09:31:34.995Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:31:35.995Z [INFO]: Found 0 registered addresses
+2025-06-14T09:32:05.165Z [INFO]: Changing platform wallet to: 0xe84e877a85e9f8811096982633b4533b40e63403
+2025-06-14T09:32:08.338Z [INFO]: Platform wallet change transaction sent: 0xe7e264dc37e681c722aa7e0f23016f51ae05a88d1b6c8602c5541f2127cc94f7
+2025-06-14T09:32:08.838Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T09:32:09.936Z [INFO]: Changing platform wallet to: 0xdfc3792fb4d9a376ce4f24e368c8b98631a3676c
+2025-06-14T09:32:13.081Z [INFO]: Platform wallet change transaction sent: 0xaf58cb224b5f29be63db8db7b4529864fba9e1439a6efa8a6b81e0e4759a652b
+2025-06-14T09:32:14.609Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T09:32:15.686Z [INFO]: Changing platform wallet to: 0xa5f696914e97a4c8e86311f3445e48a69c986ce3
+2025-06-14T09:32:18.636Z [INFO]: Platform wallet change transaction sent: 0x94a72554689e36ea4c2490345c498e3410da6ed7e515e6465283d843bf7cb948
+2025-06-14T09:32:19.129Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T09:32:20.200Z [INFO]: Changing platform wallet to: 0x5a4118db586ee7546dc4afc4b3078c1ab387dd13
+2025-06-14T09:32:23.190Z [INFO]: Platform wallet change transaction sent: 0x0ad710d3fb46c75013f7d48892c73abdd01d0dd19155fc85ead97528dbe904e2
+2025-06-14T09:32:23.689Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T09:32:24.753Z [INFO]: Changing platform wallet to: 0x672e0846378544ba9762245edc451fcd1c009b45
+2025-06-14T09:32:28.850Z [INFO]: Platform wallet change transaction sent: 0x3692a8769f5fa06704d23df07aa9d990b2220cbabccf77b09ced0fc62e073278
+2025-06-14T09:32:30.371Z [INFO]: Platform wallet changed successfully. Gas used: 29238
+2025-06-14T09:32:31.428Z [INFO]: Changing platform wallet to: 0x8ad6c9cae35fa99b1f334659fa28b506f04198dc
+2025-06-14T09:32:34.339Z [INFO]: Platform wallet change transaction sent: 0x6b07a02721de744bb554a0ce96077f85ca7363e1d81c0962e08e275ec951f1c5
+2025-06-14T09:32:34.806Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T09:32:35.863Z [INFO]: Changing platform wallet to: 0x648794f13966ad32f8ffb17701cc5786aaa14f89
+2025-06-14T09:32:38.995Z [INFO]: Platform wallet change transaction sent: 0x8ad1209ac003ed807a9d1d457c894cbbb63ef5112750886e205a9706ec4ab1e3
+2025-06-14T09:32:39.500Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T09:32:40.572Z [INFO]: Changing platform wallet to: 0x661def715e7c0ecbeb07c93aa253f0596a5fc578
+2025-06-14T09:32:43.484Z [INFO]: Platform wallet change transaction sent: 0x2ab9667db73a68b0c3287a569c53ce7fea8101a0ef835c0e7e00a03e22d7ef3d
+2025-06-14T09:32:43.955Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T09:32:45.022Z [INFO]: Changing platform wallet to: 0x45e3460ce51c1c5ecef82cb6613a7ae569eb19ac
+2025-06-14T09:32:47.992Z [INFO]: Platform wallet change transaction sent: 0xaf3a5dc974b1a96e7812b7d61932273fe88de1f8997c370629c465cde6de3537
+2025-06-14T09:32:48.465Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T09:32:49.536Z [INFO]: Changing platform wallet to: 0xfd287a6b85315e3a63919887b6719c3b82377d40
+2025-06-14T09:32:52.494Z [INFO]: Platform wallet change transaction sent: 0x708fd616f395e04ba9c280416e4fab9313994e10e327cb780cc65a4c33699ab6
+2025-06-14T09:32:52.975Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T09:32:54.054Z [INFO]: Changing platform wallet to: 0x928fc5d46bbfc9757d460490a4982a99a2576c32
+2025-06-14T09:32:56.987Z [INFO]: Platform wallet change transaction sent: 0xf1828fc9e618c7183a6e340318820fba2f6eb8b5e2537989e36532b5e7203072
+2025-06-14T09:32:57.473Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T09:32:58.534Z [INFO]: Changing platform wallet to: 0x4412014a3d6a34e289a001ea7c1d59a1dbd32ca4
+2025-06-14T09:33:01.540Z [INFO]: Platform wallet change transaction sent: 0xfd3fbe0162ddae1ea9ca16c6fbc3304ef2046ffbe224fa95d4b03ce232267f82
+2025-06-14T09:33:32.074Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T09:33:32.156Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T09:33:32.651Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T09:33:35.867Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:33:36.857Z [INFO]: Found 0 registered addresses
+2025-06-14T09:35:21.018Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:35:22.036Z [INFO]: Found 0 registered addresses
+2025-06-14T09:35:31.046Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:35:32.055Z [INFO]: Found 0 registered addresses
+2025-06-14T09:35:45.342Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:35:46.309Z [INFO]: Found 0 registered addresses
+2025-06-14T09:35:47.803Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:35:48.767Z [INFO]: Found 0 registered addresses
+2025-06-14T09:35:50.251Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:35:51.218Z [INFO]: Found 0 registered addresses
+2025-06-14T09:35:54.331Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:35:55.307Z [INFO]: Found 0 registered addresses
+2025-06-14T09:36:05.323Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:36:06.250Z [INFO]: Found 0 registered addresses
+2025-06-14T09:36:15.319Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:36:16.325Z [INFO]: Found 0 registered addresses
+2025-06-14T09:36:25.301Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:36:26.271Z [INFO]: Found 0 registered addresses
+2025-06-14T09:36:35.386Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:36:36.328Z [INFO]: Found 0 registered addresses
+2025-06-14T09:36:45.439Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:36:46.437Z [INFO]: Found 0 registered addresses
+2025-06-14T09:36:55.303Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:36:56.294Z [INFO]: Found 0 registered addresses
+2025-06-14T09:37:24.364Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:37:25.352Z [INFO]: Found 0 registered addresses
+2025-06-14T09:37:49.291Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T09:37:49.376Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T09:37:49.885Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T09:38:19.171Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T09:38:19.231Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T09:38:19.760Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T09:38:22.112Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:38:23.131Z [INFO]: Found 0 registered addresses
+2025-06-14T09:38:27.326Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:38:28.325Z [INFO]: Found 0 registered addresses
+2025-06-14T09:38:36.139Z [INFO]: Executing single transfer for: 0xe84e877a85e9f8811096982633b4533b40e63403
+2025-06-14T09:38:36.649Z [ERROR]: Error executing single transfer for 0xe84e877a85e9f8811096982633b4533b40e63403: Address 0xe84e877a85e9f8811096982633b4533b40e63403 is not registered
+2025-06-14T09:38:38.741Z [INFO]: Executing single transfer for: 0xdfc3792fb4d9a376ce4f24e368c8b98631a3676c
+2025-06-14T09:38:39.235Z [ERROR]: Error executing single transfer for 0xdfc3792fb4d9a376ce4f24e368c8b98631a3676c: Address 0xdfc3792fb4d9a376ce4f24e368c8b98631a3676c is not registered
+2025-06-14T09:38:41.328Z [INFO]: Executing single transfer for: 0xa5f696914e97a4c8e86311f3445e48a69c986ce3
+2025-06-14T09:38:41.837Z [ERROR]: Error executing single transfer for 0xa5f696914e97a4c8e86311f3445e48a69c986ce3: Address 0xa5f696914e97a4c8e86311f3445e48a69c986ce3 is not registered
+2025-06-14T09:38:43.958Z [INFO]: Executing single transfer for: 0x5a4118db586ee7546dc4afc4b3078c1ab387dd13
+2025-06-14T09:38:44.485Z [ERROR]: Error executing single transfer for 0x5a4118db586ee7546dc4afc4b3078c1ab387dd13: Address 0x5a4118db586ee7546dc4afc4b3078c1ab387dd13 is not registered
+2025-06-14T09:38:46.565Z [INFO]: Executing single transfer for: 0x672e0846378544ba9762245edc451fcd1c009b45
+2025-06-14T09:38:47.051Z [ERROR]: Error executing single transfer for 0x672e0846378544ba9762245edc451fcd1c009b45: Address 0x672e0846378544ba9762245edc451fcd1c009b45 is not registered
+2025-06-14T09:38:49.126Z [INFO]: Executing single transfer for: 0x8ad6c9cae35fa99b1f334659fa28b506f04198dc
+2025-06-14T09:38:49.705Z [ERROR]: Error executing single transfer for 0x8ad6c9cae35fa99b1f334659fa28b506f04198dc: Address 0x8ad6c9cae35fa99b1f334659fa28b506f04198dc is not registered
+2025-06-14T09:38:51.783Z [INFO]: Executing single transfer for: 0x648794f13966ad32f8ffb17701cc5786aaa14f89
+2025-06-14T09:38:52.257Z [ERROR]: Error executing single transfer for 0x648794f13966ad32f8ffb17701cc5786aaa14f89: Address 0x648794f13966ad32f8ffb17701cc5786aaa14f89 is not registered
+2025-06-14T09:39:38.463Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T09:39:38.551Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T09:39:39.077Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T09:39:40.766Z [INFO]: Fetching all registered addresses...
+2025-06-14T09:39:41.798Z [INFO]: Found 0 registered addresses
+2025-06-14T10:06:23.654Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T10:06:23.870Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T10:06:24.450Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T10:07:16.351Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T10:07:16.436Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T10:07:16.935Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T10:07:24.264Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:07:25.269Z [INFO]: Found 3 registered addresses
+2025-06-14T10:07:34.589Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:07:35.590Z [INFO]: Found 3 registered addresses
+2025-06-14T10:07:36.765Z [INFO]: Changing platform wallet to: 0x9eca754c6c462f6810be77e7e44b6049b312a504
+2025-06-14T10:07:39.800Z [INFO]: Platform wallet change transaction sent: 0x829b850fbb6a97b192b67c7cdad163f72425e609e4f5792cdb6fa9ccc9eb5602
+2025-06-14T10:07:41.384Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T10:07:43.454Z [INFO]: Executing single transfer for: 0x9eca754c6c462f6810be77e7e44b6049b312a504
+2025-06-14T10:07:43.947Z [ERROR]: Error executing single transfer for 0x9eca754c6c462f6810be77e7e44b6049b312a504: Address 0x9eca754c6c462f6810be77e7e44b6049b312a504 is not registered
+2025-06-14T10:07:48.111Z [INFO]: Changing platform wallet to: 0x716de2f7fcf1e5b9f09229a97776c53d621af9cb
+2025-06-14T10:07:51.105Z [INFO]: Platform wallet change transaction sent: 0xe910fccc4a5f46ec98ab7275c103d6c06dbb66a031748cf30e88c78a8e5ab816
+2025-06-14T10:07:52.660Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T10:07:54.736Z [INFO]: Executing single transfer for: 0x716de2f7fcf1e5b9f09229a97776c53d621af9cb
+2025-06-14T10:07:55.252Z [ERROR]: Error executing single transfer for 0x716de2f7fcf1e5b9f09229a97776c53d621af9cb: Address 0x716de2f7fcf1e5b9f09229a97776c53d621af9cb is not registered
+2025-06-14T10:07:59.413Z [INFO]: Changing platform wallet to: 0x87a1ee431cb53e6e201b19b9fad8fbe9117e606d
+2025-06-14T10:08:02.354Z [INFO]: Platform wallet change transaction sent: 0xffc27f3a41300f03a381250b6d35e381ad786d0f73948042c15ee87ce824bf02
+2025-06-14T10:08:03.944Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T10:08:06.017Z [INFO]: Executing single transfer for: 0x87a1ee431cb53e6e201b19b9fad8fbe9117e606d
+2025-06-14T10:08:06.498Z [ERROR]: Error executing single transfer for 0x87a1ee431cb53e6e201b19b9fad8fbe9117e606d: Address 0x87a1ee431cb53e6e201b19b9fad8fbe9117e606d is not registered
+2025-06-14T10:08:41.859Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:08:42.879Z [INFO]: Found 3 registered addresses
+2025-06-14T10:08:47.137Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:08:48.109Z [INFO]: Found 3 registered addresses
+2025-06-14T10:08:49.604Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:09:32.896Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T10:09:32.977Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T10:09:33.498Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T10:09:34.741Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:09:35.725Z [INFO]: Found 3 registered addresses
+2025-06-14T10:09:37.727Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:09:38.730Z [INFO]: Found 3 registered addresses
+2025-06-14T10:23:29.513Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T10:23:29.585Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T10:23:30.100Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T10:23:39.760Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:23:40.796Z [INFO]: Found 3 registered addresses
+2025-06-14T10:23:49.677Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:23:50.665Z [INFO]: Found 3 registered addresses
+2025-06-14T10:24:09.065Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:24:10.229Z [INFO]: Found 3 registered addresses
+2025-06-14T10:24:29.232Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:24:30.277Z [INFO]: Found 3 registered addresses
+2025-06-14T10:30:54.686Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T10:30:54.778Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T10:30:55.304Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T10:31:17.453Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T10:31:17.522Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T10:31:18.079Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T10:32:02.162Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:32:03.180Z [INFO]: Found 3 registered addresses
+2025-06-14T10:32:08.260Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:32:09.268Z [INFO]: Found 3 registered addresses
+2025-06-14T10:32:14.225Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:32:15.249Z [INFO]: Found 3 registered addresses
+2025-06-14T10:32:16.586Z [INFO]: Changing platform wallet to: 0x67a83d039118d0a4f8a80a1e33904c182284f357
+2025-06-14T10:32:19.661Z [INFO]: Platform wallet change transaction sent: 0x4fb827576db9460ec285ba1bf0b7d5cf1bb243c3c87df61c2fe6e9f734bbcf06
+2025-06-14T10:32:21.213Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T10:32:23.345Z [INFO]: Executing single transfer for: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-14T10:32:26.916Z [INFO]: Single transfer transaction sent: 0x3c6c58d95385af8df9ef9dff7378d0ba7242d5554ad122fc80720700c88f4c60
+2025-06-14T10:32:27.377Z [INFO]: Single transfer completed for 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691. Gas used: 47009
+2025-06-14T10:32:31.559Z [INFO]: Changing platform wallet to: 0xc76b35e6102267e13d065cf7c2a1f496594615ef
+2025-06-14T10:32:34.601Z [INFO]: Platform wallet change transaction sent: 0xc82b472b0ef299cb19771fa8f8b4bc09009e1431bd2df1a3f86964d63ea44c64
+2025-06-14T10:32:36.275Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T10:32:38.401Z [INFO]: Executing single transfer for: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-14T10:32:42.086Z [INFO]: Single transfer transaction sent: 0x7e8f44ba028ee2a72f714aaca20f6b992ea78784fb4576b8b2cc68205d23fac8
+2025-06-14T10:32:43.606Z [INFO]: Single transfer completed for 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8. Gas used: 67709
+2025-06-14T10:32:47.806Z [INFO]: Changing platform wallet to: 0x6dc2423b21b5d3b1b74a605b82dbd72e1eda4e41
+2025-06-14T10:32:51.057Z [INFO]: Platform wallet change transaction sent: 0x4f7c0b5a44a5cada080e9d42472f38939d33244e04a2560433753b4dadb73613
+2025-06-14T10:32:52.577Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T10:32:54.703Z [INFO]: Executing single transfer for: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-14T10:32:58.293Z [INFO]: Single transfer transaction sent: 0x01b0a0976214ad652ac1dabf43a8dbaeb54977b4cc543162510a700fce4b0eab
+2025-06-14T10:32:58.807Z [INFO]: Single transfer completed for 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe. Gas used: 67709
+2025-06-14T10:33:09.721Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:33:10.715Z [INFO]: Found 3 registered addresses
+2025-06-14T10:33:15.589Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:33:16.628Z [INFO]: Found 3 registered addresses
+2025-06-14T10:33:39.557Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:33:40.576Z [INFO]: Found 3 registered addresses
+2025-06-14T10:34:10.188Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:34:11.227Z [INFO]: Found 3 registered addresses
+2025-06-14T10:34:17.847Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:34:18.854Z [INFO]: Found 3 registered addresses
+2025-06-14T10:34:20.193Z [INFO]: Changing platform wallet to: 0x73b85ca79ec7223a59c0661fff117b3131eb41c7
+2025-06-14T10:34:23.182Z [INFO]: Platform wallet change transaction sent: 0xe3ae286eba9f85f419c83167aae210d1057e5f1d49ad9217c280892c755fa83f
+2025-06-14T10:34:24.741Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T10:34:26.869Z [INFO]: Executing single transfer for: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-14T10:34:30.305Z [INFO]: Single transfer transaction sent: 0x38cd9221c6999369b578bee5630fe1c2e1d2a9fc2606ffb46ac9ab413de423fa
+2025-06-14T10:34:31.850Z [INFO]: Single transfer completed for 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691. Gas used: 47009
+2025-06-14T10:34:36.600Z [INFO]: Changing platform wallet to: 0xedcfa8208c35fa15ce3c7018d20ab63a341f2399
+2025-06-14T10:34:39.793Z [INFO]: Platform wallet change transaction sent: 0x1f285c1acef6b01bdfcd5f845000a5632510a971a48f94db7cfbcf841c087aaf
+2025-06-14T10:34:41.319Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T10:34:43.469Z [INFO]: Executing single transfer for: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-14T10:34:46.977Z [INFO]: Single transfer transaction sent: 0xd9888401e93ffc6c645522e454ce1de899b3bdcab3397fe2858a894a00f268cc
+2025-06-14T10:34:47.481Z [INFO]: Single transfer completed for 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8. Gas used: 47009
+2025-06-14T10:34:51.663Z [INFO]: Changing platform wallet to: 0x593fc72bd659f11fb06d12c4321f78646e2c079a
+2025-06-14T10:34:54.805Z [INFO]: Platform wallet change transaction sent: 0x94e8c4bfa5f67ad515225591e09e1dce640150a03ebace4a8bb4e5713e6822a5
+2025-06-14T10:34:56.379Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T10:34:58.532Z [INFO]: Executing single transfer for: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-14T10:35:02.054Z [INFO]: Single transfer transaction sent: 0xd23765798516f0870ce2fc3b2631204f30ddc3b7bdac291fdfdd1d605249ae70
+2025-06-14T10:35:02.554Z [INFO]: Single transfer completed for 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe. Gas used: 47009
+2025-06-14T10:40:46.919Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:40:47.918Z [INFO]: Found 3 registered addresses
+2025-06-14T10:48:43.798Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T10:48:43.874Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T10:48:44.417Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T10:50:00.727Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:50:01.725Z [INFO]: Found 3 registered addresses
+2025-06-14T10:50:10.246Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:50:11.237Z [INFO]: Found 3 registered addresses
+2025-06-14T10:50:19.959Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:50:20.929Z [INFO]: Found 3 registered addresses
+2025-06-14T10:50:29.937Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:50:30.920Z [INFO]: Found 3 registered addresses
+2025-06-14T10:50:39.898Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:50:40.885Z [INFO]: Found 3 registered addresses
+2025-06-14T10:50:49.913Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:50:50.914Z [INFO]: Found 3 registered addresses
+2025-06-14T10:50:59.932Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:51:00.951Z [INFO]: Found 3 registered addresses
+2025-06-14T10:52:28.652Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:52:29.652Z [INFO]: Found 3 registered addresses
+2025-06-14T10:52:38.623Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:52:39.740Z [INFO]: Found 3 registered addresses
+2025-06-14T10:52:48.758Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:52:49.777Z [INFO]: Found 3 registered addresses
+2025-06-14T10:52:58.703Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:52:59.678Z [INFO]: Found 3 registered addresses
+2025-06-14T10:53:08.660Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:53:09.654Z [INFO]: Found 3 registered addresses
+2025-06-14T10:53:18.859Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:53:19.851Z [INFO]: Found 3 registered addresses
+2025-06-14T10:53:28.677Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:53:29.717Z [INFO]: Found 3 registered addresses
+2025-06-14T10:53:38.633Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:53:39.642Z [INFO]: Found 3 registered addresses
+2025-06-14T10:53:48.669Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:53:49.682Z [INFO]: Found 3 registered addresses
+2025-06-14T10:53:58.629Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:53:59.619Z [INFO]: Found 3 registered addresses
+2025-06-14T10:54:08.738Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:54:09.756Z [INFO]: Found 3 registered addresses
+2025-06-14T10:54:18.668Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:54:19.675Z [INFO]: Found 3 registered addresses
+2025-06-14T10:54:28.703Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:54:29.695Z [INFO]: Found 3 registered addresses
+2025-06-14T10:54:30.035Z [INFO]: Fetching all registered addresses...
+2025-06-14T10:54:30.979Z [INFO]: Found 3 registered addresses
+2025-06-14T10:54:32.298Z [INFO]: Changing platform wallet to: 0xf97cc35c929f5219ab7be99fc770ec61da35da67
+2025-06-14T10:54:35.393Z [INFO]: Platform wallet change transaction sent: 0xc2f74e174a6cdb5c14b4998efedabdd5d6aabeb55db1c69415c970723d38b23d
+2025-06-14T10:54:36.897Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T10:54:39.025Z [INFO]: Executing single transfer for: 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691
+2025-06-14T10:54:42.520Z [INFO]: Single transfer transaction sent: 0x2aba149b05ed0822152107ad9b2098b2343d1d1e9b7c0f2b2c51309a7a3b4340
+2025-06-14T10:54:43.012Z [INFO]: Single transfer completed for 0x301fec7c070a9c9dedfb41bc45cc8a5d4aa17691. Gas used: 47009
+2025-06-14T10:54:47.145Z [INFO]: Changing platform wallet to: 0x6d293390b93fdedaa1ab4e5b5867912977b1be88
+2025-06-14T10:54:50.133Z [INFO]: Platform wallet change transaction sent: 0xac733e70ab67db6e2c5cfa1ca5ddf16ea4b122a2406c087f5316e09bd3a2cfbd
+2025-06-14T10:54:50.606Z [INFO]: Platform wallet changed successfully. Gas used: 29250
+2025-06-14T10:54:52.720Z [INFO]: Executing single transfer for: 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8
+2025-06-14T10:54:56.504Z [INFO]: Single transfer transaction sent: 0x388f2409e5e31cd606fcb0d6f5639e42ae0e9341f44df4295a1031d3619b3056
+2025-06-14T10:54:58.020Z [INFO]: Single transfer completed for 0xdacebfc0e06ae7ed41db63d3ba6e19f0a9d6d9a8. Gas used: 47009
+2025-06-14T10:55:02.170Z [INFO]: Changing platform wallet to: 0xe96e3879516bf852003ae696061aeaed2598027c
+2025-06-14T10:55:05.307Z [INFO]: Platform wallet change transaction sent: 0x0d3b87ab785878ad1eea95ffc14643ea0ddd5f7b806bf464d06fbc2647abaf95
+2025-06-14T10:55:06.823Z [INFO]: Platform wallet changed successfully. Gas used: 29238
+2025-06-14T10:55:08.941Z [INFO]: Executing single transfer for: 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe
+2025-06-14T10:55:12.586Z [INFO]: Single transfer transaction sent: 0x185aa041050d2e031da1054c007a0cd2fd3728ec065d3bf064962d0047c129ff
+2025-06-14T10:55:13.081Z [INFO]: Single transfer completed for 0x1e91beb6a36b9570058278aa7bf88b94fd4b29fe. Gas used: 47009
+2025-06-14T11:21:09.986Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-14T11:21:10.096Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-14T11:21:10.587Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-14T11:21:16.138Z [INFO]: Fetching all registered addresses...
+2025-06-14T11:21:17.118Z [INFO]: Found 3 registered addresses

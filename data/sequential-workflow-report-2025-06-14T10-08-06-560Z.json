@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-06-14T10:08:06.560Z",
+  "workflowType": "sequential",
+  "stats": {
+    "totalRegistered": 3,
+    "walletsGenerated": 3,
+    "platformChanges": 3,
+    "transfers": 0,
+    "errors": 3
+  },
+  "summary": {
+    "successRate": 0,
+    "platformChangeRate": 100
+  }
+}

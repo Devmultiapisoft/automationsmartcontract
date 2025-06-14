@@ -1,0 +1,83 @@
+{
+  "name": "automation-smart-contract",
+  "version": "1.0.0",
+  "description": "Smart contract automation system with React frontend and Node.js backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "sequential": "node scripts/sequentialWorkflow.js",
+    "workflow": "node scripts/runStep.js all",
+    "step1": "node scripts/runStep.js generate",
+    "step2": "node scripts/runStep.js platform",
+    "step3": "node scripts/runStep.js registered",
+    "step4": "node scripts/runStep.js transfer",
+    "generate-wallets": "node scripts/generateWallets.js",
+    "change-platform-wallet": "node scripts/changePlatformWallet.js",
+    "single-transfer": "node scripts/singleTransfer.js",
+    "get-registered": "node scripts/getRegistered.js",
+    "pm2:start": "pm2 start ecosystem.config.js --env production",
+    "pm2:stop": "pm2 stop smart-contract-automation",
+    "pm2:restart": "pm2 restart smart-contract-automation",
+    "pm2:delete": "pm2 delete smart-contract-automation",
+    "pm2:logs": "pm2 logs smart-contract-automation",
+    "pm2:status": "pm2 status",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1",
+    "web3": "^4.2.2",
+    "winston": "^3.11.0",
+    "bip39": "^3.1.0",
+    "hdkey": "^2.1.0",
+    "bcryptjs": "^2.4.3",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "@mui/material": "^5.15.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/x-data-grid": "^6.18.0",
+    "axios": "^1.6.2",
+    "recharts": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "ethereum",
+    "smart-contract",
+    "automation",
+    "wallet",
+    "bsc",
+    "react",
+    "mongodb",
+    "material-ui"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
