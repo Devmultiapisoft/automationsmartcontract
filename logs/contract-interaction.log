@@ -162,3 +162,22 @@
 2025-06-15T06:43:56.229Z [INFO]: Found 3 registered addresses
 2025-06-15T06:43:57.773Z [INFO]: Fetching all registered addresses...
 2025-06-15T06:43:59.337Z [INFO]: Found 3 registered addresses
+2025-06-15T11:25:36.548Z [INFO]: Using contract settings from database
+2025-06-15T11:25:37.416Z [INFO]: Connected to network: bnb (Chain ID: 56)
+2025-06-15T11:25:37.518Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-15T11:25:37.519Z [INFO]: Available contract functions: changePlatformWallet, checkAllowance, checkIfRegistered, checkbalance, getAllRegistered, getTotalExtractableTokens, isRegistered, multiTransfer, owner, platformWallet, registeredUsers, renounceOwnership, singleTransfer, totalRegistered, transferOwnership, whitlistAddress
+2025-06-15T11:25:38.291Z [INFO]: Contract initialized at: 0x2b448a8ad9070e7e5ee86ab8bf5f7f8d891e2648
+2025-06-15T11:25:51.961Z [INFO]: Fetching all registered addresses...
+2025-06-15T11:25:53.526Z [INFO]: Found 1 registered addresses
+2025-06-15T11:27:10.359Z [ERROR]: Error getting contract owner: connect ETIMEDOUT 35.71.137.105:443
+2025-06-15T11:28:38.931Z [ERROR]: Error getting contract owner: connect ETIMEDOUT 52.223.34.155:443
+2025-06-15T11:28:38.932Z [ERROR]: Error getting contract owner: connect ETIMEDOUT 52.223.34.155:443
+2025-06-15T11:31:01.148Z [INFO]: Using contract settings from database
+2025-06-15T11:31:01.992Z [INFO]: Connected to network: bnbt (Chain ID: 97)
+2025-06-15T11:31:01.995Z [INFO]: Owner wallet address: 0x41595e0044f75CcB8E17aE148999b28938d4c060
+2025-06-15T11:31:01.995Z [INFO]: Available contract functions: changePlatformWallet, checkAllowance, checkIfRegistered, checkbalance, getAllRegistered, getTotalExtractableTokens, isRegistered, multiTransfer, owner, platformWallet, registeredUsers, renounceOwnership, singleTransfer, totalRegistered, transferOwnership, whitlistAddress
+2025-06-15T11:31:02.513Z [INFO]: Contract initialized at: 0x7238fae7a03b278f2e13bb357191816dff1792d0
+2025-06-15T11:31:05.127Z [INFO]: Fetching all registered addresses...
+2025-06-15T11:31:06.176Z [INFO]: Found 4 registered addresses
+2025-06-15T11:54:41.909Z [INFO]: Fetching all registered addresses...
+2025-06-15T11:54:42.936Z [INFO]: Found 4 registered addresses

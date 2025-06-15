@@ -32,9 +32,32 @@ class SequentialWorkflow {
             registeredAddressesFetched: 0
         };
         this.processedPairs = []; // Track wallet-registered address pairs
+        this.shouldStop = false;
+        this.isRunning = false;
+        this.currentPair = 0;
     }
 
+    // Stop control methods
+    stop() {
+        this.shouldStop = true;
+        logger.info('🛑 STOP REQUESTED - Workflow will stop after current operation');
+    }
 
+    forceStop() {
+        this.shouldStop = true;
+        this.isRunning = false;
+        logger.info('🚨 FORCE STOP REQUESTED - Workflow stopping immediately');
+    }
+
+    getStatus() {
+        return {
+            isRunning: this.isRunning,
+            shouldStop: this.shouldStop,
+            currentPair: this.currentPair,
+            totalPairs: this.stats.totalRegistered,
+            stats: this.stats
+        };
+    }
 
     async generateSingleWallet(walletId) {
         try {
@@ -136,6 +159,10 @@ class SequentialWorkflow {
 
     async runSequentialWorkflow(delayBetweenWallets = 3000) {
         try {
+            this.isRunning = true;
+            this.shouldStop = false;
+            this.currentPair = 0;
+
             logger.info('🚀 STARTING SEQUENTIAL AUTOMATION WORKFLOW');
             logger.info('================================================');
 
@@ -210,6 +237,14 @@ class SequentialWorkflow {
             
             // Process each wallet sequentially
             for (let i = 1; i <= this.stats.totalRegistered; i++) {
+                this.currentPair = i;
+
+                // Check if stop was requested
+                if (this.shouldStop) {
+                    logger.info(`🛑 STOPPING WORKFLOW - Processed ${i-1}/${this.stats.totalRegistered} pairs`);
+                    break;
+                }
+
                 let pairData = {
                     pairNumber: i,
                     walletId: i,
@@ -233,6 +268,13 @@ class SequentialWorkflow {
                     pairData.walletAddress = wallet.address;
                     pairData.walletGenerated = true;
 
+                    // Check stop condition after wallet generation
+                    if (this.shouldStop) {
+                        logger.info(`🛑 STOPPING after wallet generation for pair ${i}`);
+                        this.processedPairs.push(pairData);
+                        break;
+                    }
+
                     // Small delay after generation
                     await new Promise(resolve => setTimeout(resolve, 1000));
 
@@ -240,6 +282,13 @@ class SequentialWorkflow {
                     const platformResult = await this.performPlatformChange(wallet);
                     pairData.platformChangeSuccess = platformResult.success;
                     pairData.platformChangeTxHash = platformResult.txHash;
+
+                    // Check stop condition after platform change
+                    if (this.shouldStop) {
+                        logger.info(`🛑 STOPPING after platform change for pair ${i}`);
+                        this.processedPairs.push(pairData);
+                        break;
+                    }
 
                     if (platformResult.success) {
                         // Small delay before transfer
@@ -284,10 +333,17 @@ class SequentialWorkflow {
             
             const endTime = Date.now();
             const duration = Math.round((endTime - startTime) / 1000 / 60); // minutes
-            
+
+            // Mark as not running
+            this.isRunning = false;
+
             // Final summary
             logger.info('\n================================================');
-            logger.info('🎉 SEQUENTIAL WORKFLOW COMPLETED!');
+            if (this.shouldStop) {
+                logger.info('🛑 SEQUENTIAL WORKFLOW STOPPED BY USER!');
+            } else {
+                logger.info('🎉 SEQUENTIAL WORKFLOW COMPLETED!');
+            }
             logger.info('================================================');
             logger.info(`📊 FINAL STATISTICS:`);
             logger.info(`- Total registered in contract: ${this.stats.totalRegistered}`);
@@ -305,6 +361,7 @@ class SequentialWorkflow {
             return this.stats;
             
         } catch (error) {
+            this.isRunning = false;
             logger.error(`💥 SEQUENTIAL WORKFLOW FAILED: ${error.message}`);
             throw error;
         }

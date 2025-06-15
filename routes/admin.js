@@ -4,7 +4,11 @@ const Admin = require('../models/Admin');
 const ContractSettings = require('../models/ContractSettings');
 const abiFetcher = require('../utils/abiFetcher');
 const contractInteraction = require('../utils/contractInteraction');
+const SequentialWorkflow = require('../scripts/sequentialWorkflow');
 const { generateToken, authenticate, requireSuperAdmin, checkLoginRateLimit } = require('../middleware/auth');
+
+// Global workflow instance
+let currentWorkflow = null;
 
 // Login
 router.post('/login', checkLoginRateLimit, async (req, res) => {
@@ -291,6 +295,118 @@ router.post('/reinitialize-contract', authenticate, async (req, res) => {
         res.status(500).json({
             success: false,
             error: `Failed to reinitialize contract: ${error.message}`
+        });
+    }
+});
+
+// Start automation workflow
+router.post('/start-automation', authenticate, async (req, res) => {
+    try {
+        // Check if workflow is already running
+        if (currentWorkflow && currentWorkflow.getStatus().isRunning) {
+            return res.status(400).json({
+                success: false,
+                error: 'Automation workflow is already running'
+            });
+        }
+
+        // Create new workflow instance
+        currentWorkflow = new SequentialWorkflow();
+
+        // Start workflow in background
+        const delayBetweenWallets = req.body.delayBetweenWallets || 3000;
+
+        // Don't await - run in background
+        currentWorkflow.runSequentialWorkflow(delayBetweenWallets)
+            .then((stats) => {
+                console.log('Automation workflow completed:', stats);
+            })
+            .catch((error) => {
+                console.error('Automation workflow failed:', error.message);
+            });
+
+        res.json({
+            success: true,
+            message: 'Automation workflow started successfully',
+            status: currentWorkflow.getStatus()
+        });
+
+    } catch (error) {
+        res.status(500).json({
+            success: false,
+            error: error.message
+        });
+    }
+});
+
+// Stop automation workflow
+router.post('/stop-automation', authenticate, async (req, res) => {
+    try {
+        if (!currentWorkflow) {
+            return res.status(400).json({
+                success: false,
+                error: 'No automation workflow is running'
+            });
+        }
+
+        const status = currentWorkflow.getStatus();
+
+        if (!status.isRunning) {
+            return res.status(400).json({
+                success: false,
+                error: 'Automation workflow is not currently running'
+            });
+        }
+
+        // Stop the workflow
+        currentWorkflow.stop();
+
+        res.json({
+            success: true,
+            message: 'Stop signal sent to automation workflow',
+            status: currentWorkflow.getStatus()
+        });
+
+    } catch (error) {
+        res.status(500).json({
+            success: false,
+            error: error.message
+        });
+    }
+});
+
+// Get automation status
+router.get('/automation-status', authenticate, async (req, res) => {
+    try {
+        if (!currentWorkflow) {
+            return res.json({
+                success: true,
+                status: {
+                    isRunning: false,
+                    shouldStop: false,
+                    currentPair: 0,
+                    totalPairs: 0,
+                    stats: {
+                        totalRegistered: 0,
+                        walletsGenerated: 0,
+                        platformChanges: 0,
+                        transfers: 0,
+                        errors: 0,
+                        registeredAddressesFetched: 0
+                    }
+                }
+            });
+        }
+
+        res.json({
+            success: true,
+            status: currentWorkflow.getStatus()
+        });
+
+    } catch (error) {
+        res.status(500).json({
+            success: false,
+            error: error.message
         });
     }
 });

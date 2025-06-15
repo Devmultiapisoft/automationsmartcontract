@@ -36,7 +36,8 @@ import {
   CheckCircle,
   Error as ErrorIcon,
   Pending,
-  SwapHoriz
+  SwapHoriz,
+  Cancel
 } from '@mui/icons-material';
 import ModernLoader from './ModernLoader';
 
@@ -67,6 +68,13 @@ function OperationsTab() {
   const [error, setError] = useState(null);
   const [stats, setStats] = useState(null);
   const [processStatus, setProcessStatus] = useState([]);
+  const [automationStatus, setAutomationStatus] = useState({
+    isRunning: false,
+    shouldStop: false,
+    currentPair: 0,
+    totalPairs: 0,
+    stats: {}
+  });
   const [currentPair, setCurrentPair] = useState(null);
 
   // Fetch stats to check if operations can be run
@@ -84,9 +92,87 @@ function OperationsTab() {
 
   useEffect(() => {
     fetchStats();
-    const interval = setInterval(fetchStats, 5000); // Update every 5 seconds
-    return () => clearInterval(interval);
-  }, []);
+    fetchAutomationStatus();
+
+    const statsInterval = setInterval(fetchStats, 5000); // Update stats every 5 seconds
+    const statusInterval = setInterval(() => {
+      if (automationStatus.isRunning) {
+        fetchAutomationStatus();
+      }
+    }, 2000); // Update automation status every 2 seconds when running
+
+    return () => {
+      clearInterval(statsInterval);
+      clearInterval(statusInterval);
+    };
+  }, [automationStatus.isRunning]);
+
+  const fetchAutomationStatus = async () => {
+    try {
+      const token = localStorage.getItem('adminToken');
+      const response = await fetch('/api/admin/automation-status', {
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      });
+      const data = await response.json();
+      if (data.success) {
+        setAutomationStatus(data.status);
+      }
+    } catch (error) {
+      console.error('Error fetching automation status:', error);
+    }
+  };
+
+  const startAutomation = async () => {
+    try {
+      setError(null);
+      const token = localStorage.getItem('adminToken');
+      const response = await fetch('/api/admin/start-automation', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`
+        },
+        body: JSON.stringify({
+          delayBetweenWallets: 3000
+        })
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        setAutomationStatus(data.status);
+        // Start polling for status updates
+        fetchAutomationStatus();
+      } else {
+        setError(data.error);
+      }
+    } catch (error) {
+      setError('Failed to start automation: ' + error.message);
+    }
+  };
+
+  const stopAutomation = async () => {
+    try {
+      setError(null);
+      const token = localStorage.getItem('adminToken');
+      const response = await fetch('/api/admin/stop-automation', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        setAutomationStatus(data.status);
+      } else {
+        setError(data.error);
+      }
+    } catch (error) {
+      setError('Failed to stop automation: ' + error.message);
+    }
+  };
 
   const runOperation = async (operationId) => {
     try {
@@ -259,62 +345,137 @@ function OperationsTab() {
       <Grid container spacing={3}>
         {/* Main Operation */}
         <Grid item xs={12} md={6}>
-          <Card>
+          <Card sx={{
+            background: 'linear-gradient(145deg, #1E2329 0%, #2B3139 100%)',
+            border: '1px solid #2B3139',
+            borderRadius: { xs: 2, sm: 3 }
+          }}>
             <CardContent>
-              <Typography variant="h6" gutterBottom>
-                Smart Contract Automation
-              </Typography>
+              <Stack direction="row" alignItems="center" spacing={2} sx={{ mb: 2 }}>
+                <AutoAwesome sx={{ color: '#F0B90B', fontSize: 24 }} />
+                <Typography variant="h6" sx={{ color: '#F0B90B', fontWeight: 'bold' }}>
+                  Smart Contract Automation
+                </Typography>
+              </Stack>
 
-              <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
+              <Typography variant="body2" sx={{ color: '#848E9C', mb: 3 }}>
                 Complete automation workflow: Fetch registered addresses → Generate wallets → Platform changes → Transfers
               </Typography>
 
-              {running.sequential && (
-                <Box sx={{ mb: 2 }}>
-                  <LinearProgress />
-                  <Typography variant="body2" sx={{ mt: 1 }}>
-                    {currentPair ? `Processing pair ${currentPair.current}/${currentPair.total}...` : 'Starting automation...'}
+              {/* Automation Status */}
+              {automationStatus.isRunning && (
+                <Box sx={{ mb: 3 }}>
+                  <LinearProgress
+                    sx={{
+                      backgroundColor: '#2B3139',
+                      '& .MuiLinearProgress-bar': {
+                        backgroundColor: '#F0B90B'
+                      },
+                      borderRadius: 1,
+                      height: 6
+                    }}
+                  />
+                  <Typography variant="body2" sx={{ mt: 1, color: '#848E9C' }}>
+                    Processing pair {automationStatus.currentPair}/{automationStatus.totalPairs}...
+                    {automationStatus.shouldStop && ' (Stopping after current operation...)'}
                   </Typography>
+
+                  {/* Live Stats */}
+                  <Box sx={{ mt: 2, p: 2, backgroundColor: '#0B1426', borderRadius: 1 }}>
+                    <Grid container spacing={2}>
+                      <Grid item xs={6}>
+                        <Typography variant="caption" sx={{ color: '#848E9C' }}>Wallets Generated</Typography>
+                        <Typography variant="h6" sx={{ color: '#F0B90B' }}>
+                          {automationStatus.stats.walletsGenerated || 0}
+                        </Typography>
+                      </Grid>
+                      <Grid item xs={6}>
+                        <Typography variant="caption" sx={{ color: '#848E9C' }}>Platform Changes</Typography>
+                        <Typography variant="h6" sx={{ color: '#2196F3' }}>
+                          {automationStatus.stats.platformChanges || 0}
+                        </Typography>
+                      </Grid>
+                      <Grid item xs={6}>
+                        <Typography variant="caption" sx={{ color: '#848E9C' }}>Transfers</Typography>
+                        <Typography variant="h6" sx={{ color: '#00C851' }}>
+                          {automationStatus.stats.transfers || 0}
+                        </Typography>
+                      </Grid>
+                      <Grid item xs={6}>
+                        <Typography variant="caption" sx={{ color: '#848E9C' }}>Errors</Typography>
+                        <Typography variant="h6" sx={{ color: '#F6465D' }}>
+                          {automationStatus.stats.errors || 0}
+                        </Typography>
+                      </Grid>
+                    </Grid>
+                  </Box>
                 </Box>
               )}
 
-              <Button
-                variant="contained"
-                color="primary"
-                startIcon={<PlayArrow />}
-                onClick={() => runOperation('sequential')}
-                disabled={!canRunOperation('sequential')}
-                fullWidth
-                sx={{ mb: 2 }}
-                size="large"
-              >
-                {running.sequential ? 'Running Automation...' : 'Start Automation Workflow'}
-              </Button>
-
-              {results.sequential && (
-                <Alert
-                  severity={results.sequential.success ? 'success' : 'error'}
-                  sx={{ mt: 1 }}
+              {/* Control Buttons */}
+              <Stack direction="row" spacing={2}>
+                <Button
+                  variant="contained"
+                  startIcon={<PlayArrow />}
+                  onClick={startAutomation}
+                  disabled={automationStatus.isRunning}
+                  fullWidth
+                  size="large"
+                  sx={{
+                    background: 'linear-gradient(45deg, #F0B90B 0%, #FCD535 100%)',
+                    color: '#0B1426',
+                    fontWeight: 'bold',
+                    '&:hover': {
+                      background: 'linear-gradient(45deg, #D9A441 0%, #F0B90B 100%)',
+                    },
+                    '&:disabled': {
+                      background: '#848E9C',
+                      color: '#2B3139'
+                    }
+                  }}
                 >
-                  <Typography variant="body2">
-                    {results.sequential.success ? (
-                      <>
-                        Automation completed successfully!
-                        {results.sequential.data && (
-                          <Box sx={{ mt: 1, fontSize: '0.8rem' }}>
-                            Generated: {results.sequential.data.walletsGenerated} |
-                            Platform Changes: {results.sequential.data.platformChanges} |
-                            Transfers: {results.sequential.data.transfers}
-                          </Box>
-                        )}
-                      </>
-                    ) : (
-                      `Error: ${results.sequential.error}`
-                    )}
-                  </Typography>
-                  <Typography variant="caption" display="block" sx={{ mt: 1 }}>
-                    {results.sequential.timestamp?.toLocaleString()}
-                  </Typography>
+                  {automationStatus.isRunning ? 'Running...' : 'Start Automation'}
+                </Button>
+
+                <Button
+                  variant="outlined"
+                  startIcon={<Cancel />}
+                  onClick={stopAutomation}
+                  disabled={!automationStatus.isRunning}
+                  fullWidth
+                  size="large"
+                  sx={{
+                    borderColor: '#F6465D',
+                    color: '#F6465D',
+                    '&:hover': {
+                      borderColor: '#F6465D',
+                      backgroundColor: 'rgba(246, 70, 93, 0.1)'
+                    },
+                    '&:disabled': {
+                      borderColor: '#848E9C',
+                      color: '#848E9C'
+                    }
+                  }}
+                >
+                  Stop
+                </Button>
+              </Stack>
+
+              {/* Status Message */}
+              {automationStatus.shouldStop && (
+                <Alert
+                  severity="warning"
+                  sx={{
+                    mt: 2,
+                    backgroundColor: 'rgba(240, 185, 11, 0.1)',
+                    border: '1px solid #F0B90B',
+                    color: '#F0B90B',
+                    '& .MuiAlert-icon': {
+                      color: '#F0B90B'
+                    }
+                  }}
+                >
+                  Stop requested - workflow will stop after current operation completes
                 </Alert>
               )}
             </CardContent>

@@ -39,3 +39,16 @@
 2025-06-15T06:44:04.898Z [WARN]: MongoDB disconnected
 2025-06-15T06:44:07.468Z [INFO]: Connecting to MongoDB...
 2025-06-15T06:44:13.334Z [INFO]: Database not connected
+2025-06-15T11:25:34.275Z [INFO]: Connecting to MongoDB...
+2025-06-15T11:25:35.510Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-15T11:25:36.191Z [INFO]: Database indexes created successfully
+2025-06-15T11:25:56.580Z [WARN]: MongoDB disconnected
+2025-06-15T11:25:58.794Z [INFO]: MongoDB reconnected
+2025-06-15T11:26:19.841Z [WARN]: MongoDB disconnected
+2025-06-15T11:26:20.041Z [INFO]: MongoDB reconnected
+2025-06-15T11:26:38.833Z [WARN]: MongoDB disconnected
+2025-06-15T11:26:44.028Z [INFO]: MongoDB reconnected
+2025-06-15T11:54:55.915Z [WARN]: MongoDB disconnected
+2025-06-15T11:55:04.454Z [INFO]: Connecting to MongoDB...
+2025-06-15T11:55:05.454Z [INFO]: Connected to MongoDB: mongodb+srv://automation:automation@cluster0.2rda9pb.mongodb.net/
+2025-06-15T11:55:09.029Z [ERROR]: Error creating indexes: Socket connection establishment was cancelled after 3219
