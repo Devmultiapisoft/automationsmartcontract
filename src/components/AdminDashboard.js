@@ -331,19 +331,19 @@ function AdminDashboard({ adminData, onLogout }) {
                 aria-controls="admin-tabpanel-3"
                 disabled={!isContractConfigured}
               />
-              <Tab
+              {/* <Tab
                 icon={<Settings />}
                 label={isMobile ? "System" : "System Settings"}
                 iconPosition={isMobile ? "top" : "start"}
                 id="admin-tab-4"
                 aria-controls="admin-tabpanel-4"
                 disabled={!isContractConfigured}
-              />
+              /> */}
               <Tab
                 icon={<VpnKey />}
                 label={isMobile ? "Password" : "Change Password"}
                 iconPosition={isMobile ? "top" : "start"}
-                id="admin-tab-5"
+                id="admin-tab-4"
                 aria-controls="admin-tabpanel-5"
               />
             </Tabs>
@@ -392,7 +392,7 @@ function AdminDashboard({ adminData, onLogout }) {
             )}
           </TabPanel>
 
-          <TabPanel value={tabValue} index={4}>
+          {/* <TabPanel value={tabValue} index={4}>
             {isContractConfigured ? (
               <SettingsTab />
             ) : (
@@ -402,7 +402,7 @@ function AdminDashboard({ adminData, onLogout }) {
                 </Typography>
               </Box>
             )}
-          </TabPanel>
+          </TabPanel> */}
 
           <TabPanel value={tabValue} index={5}>
             <ChangePassword />
